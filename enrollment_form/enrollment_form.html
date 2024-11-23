@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="enrollment.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <h1>Student Enrollment Form</h1>
+
+        <!-- Instructions -->
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Fill in the form fields.</li>
+            <li>Check your interests.</li>
+            <li>Click "Enroll Now" to submit.</li>
+        </ol>
+
+        <!-- Form -->
+        <form action="#" method="post">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+            <h4>Sex:</h4>
+            <input type="radio" id="male" name="sex" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="sex" value="Female" required>
+            <label for="female">Female</label>
+
+            <label for="course">Course:</label>
+            <select id="course" name="course" required>
+                <option value="">Select your course</option>
+                <option value="BSIT">BSIT</option>
+                <option value="BSSW">BSSW</option>
+                <option value="BSPA">BSPA</option>
+                <option value="BSA">BSA</option>
+            </select>
+
+            <h4>Interests:</h4>
+            <label for="web-dev">Web Development</label>
+            <input type="checkbox" id="web-dev" name="interests" value="Web Development">
+            <label for="data-science">Data Science</label>
+            <input type="checkbox" id="data-science" name="interests" value="Data Science">
+            <label for="networking">Networking</label>
+            <input type="checkbox" id="networking" name="interests" value="Networking">
+            <label for="graphic-design">Graphic Design</label>
+            <input type="checkbox" id="graphic-design" name="interests" value="Graphic Design">
+            <label for="graphic-design">Accounting</label>
+            <input type="checkbox" id="accounting" name="interests" value="Accounting">
+
+
+            <button type="submit">Enroll Now</button>
+        </form>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Sex</th>
+                    <th>Course</th>
+                    <th>Interests</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Justinegwapo</td>
+                    <td>Justinegwapo123@gmail.com</td>
+                    <td>21</td>
+                    <td>no experience</td>
+                    <td>BSIT</td>
+                    <td>Web Development, Data Science</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Janmercuepal</td>
+                    <td>Janmercuepal@gmail.com</td>
+                    <td>22</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Graphic Design</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Rainanindebeningging</td>
+                    <td>Rainanindebeningging@gmail.com</td>
+                    <td>19</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Jaysonexmen</td>
+                    <td>Jaysonexmen@gmail.com</td>
+                    <td>21</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Markscatter</td>
+                    <td>Markscatter@gmail.com</td>
+                    <td>22</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Wennielyn Arguinoso</td>
+                    <td>Wennielyn@gmail.com</td>
+                    <td>19</td>
+                    <td>Female</td>
+                    <td>BSA</td>
+                    <td>Accounting</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
